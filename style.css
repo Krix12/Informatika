@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url("Assets/Backgrounds/elliot-voilmy-CW0pFGqb5xg-unsplash.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.questionsContainer {
+  width: max-content;
+  margin: 0 auto 0 auto;
+}
+
+.questiondiv {
+  font-family: "Roboto";
+
+}
+
+#nextButton {
+  display: block;
+  margin: 30px auto 0 auto;
+  padding:  10px 15px 10px 15px;
+  background-color: #3a86ff;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: white;
+}
+
+#nextButton:hover {
+    cursor: pointer;
+}
+
+.answer {
+    border: 2px solid gray;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    margin-top: -15px;
+}
+
+.question {
+    text-align: center;
+    font-weight: 700;
+}
+
+.answer:hover {
+    cursor: pointer;
+    border: 2px solid #3a86ff;
+    transition: border 0.5s;
+    -webkit-transition: border 0.5s;
+    -moz-transition: border 0.5s;
+    -ms-transition: border 0.5s;
+    -o-transition: border 0.5s;
+}
+
+.mark {
+    display: none;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: large;
+    color: #80ed99;
+    margin: 10px auto 0 auto;
+    width: 80px;
+    }
+
+.mark div {
+    display: block;
+    height: max-content;
+    width: max-content;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+ }
+
